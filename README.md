@@ -1,4 +1,4 @@
-<div align='center'>
+<!-- <div align='center'>
 
 <img src="https://i.ibb.co/FWmKHr0/md-home.png" alt="logo" width="800" height= />
 
@@ -107,4 +107,4 @@ Please read the [Code of Conduct](https://github.com/gyandeeparyan/Food Villa-fo
 
 Gyandeep Aryan - - gyandeeparyan.dev@gmail.com
 
-Project Link: [https://github.com/gyandeeparyan/Food Villa-food](https://github.com/gyandeeparyan/Food Villa-food)
+Project Link: [https://github.com/gyandeeparyan/Food Villa-food](https://github.com/gyandeeparyan/Food Villa-food) -->
