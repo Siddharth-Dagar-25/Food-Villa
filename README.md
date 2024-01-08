@@ -1,110 +1,64 @@
-<!-- <div align='center'>
 
-<img src="https://i.ibb.co/FWmKHr0/md-home.png" alt="logo" width="800" height= />
+# Food Villa
 
-<h1>Food Villa</h1>
-<p>"Welcome to Food Villa Indulge your cravings with our cutting-edge food ordering app, crafted as an academic endeavor to mirror the best features of your favorite platforms. Discover delectable delights from local restaurants, just like Zomato and Swiggy. While we're not for real-world use, we're your one-stop destination to explore the digital flavors of food tech innovation!"</p>
+## Description
+Welcome to Food Villa Indulge your cravings with our cutting-edge food ordering app, crafted as an academic endeavor to mirror the best features of your favorite platforms. Discover delectable delights from local restaurants, just like Zomato and Swiggy. While we're not for real-world use, we're your one-stop destination to explore the digital flavors of food tech innovation!
 
-<<<<<<< HEAD
-<h4> <a href="https://Food Villa-food.netlify.app/">View Demo</a> <span> · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/blob/master/README.md"> Documentation </a> <span></span> <a href=" https://docs.google.com/document/d/1jHl52PsnCd7CSHJa8vCX-Ic3s7igFwqV7g1Rj_5Hcm4/edit?usp=sharing"> High Level Design </a> <span><span> · </span> <a href="https://docs.google.com/document/d/1WxVo67HfncnYxO2THD_bPTGskZpQ5VxNtns1FiJ362I/edit?usp=sharing"> Low Level Design </a> <span> · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/issues"> Request Feature </a> </h4>
-=======
-<h4> <a href="https://Food Villa-food.netlify.app/">View Demo</a> <span> · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://docs.google.com/document/d/1WxVo67HfncnYxO2THD_bPTGskZpQ5VxNtns1FiJ362I/edit?usp=sharing"> High Level Design </a> <span> · </span> <a href="https://docs.google.com/document/d/1jHl52PsnCd7CSHJa8vCX-Ic3s7igFwqV7g1Rj_5Hcm4/edit?usp=sharing"> Low Level Design </a> <span>  · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/gyandeeparyan/Food Villa-food/issues"> Request Feature </a> </h4>
->>>>>>> b4012fbe07b5e53df2317235bff6ee527e930763
+## ScreenShots
+Some snapshots of the project : 
+<img width="1430" alt="Screenshot 2023-12-13 at 6 32 14 AM" src="https://github.com/Siddharth-Dagar-25/todo-application/assets/97306013/336420e2-54b3-44bc-bb06-b224339cdcd0">
+<img width="1425" alt="Screenshot 2023-12-13 at 6 32 27 AM" src="https://github.com/Siddharth-Dagar-25/todo-application/assets/97306013/b2ce0646-a137-4e16-85e0-4c46940e2954">
+<img width="1419" alt="Screenshot 2023-12-13 at 6 32 38 AM" src="https://github.com/Siddharth-Dagar-25/todo-application/assets/97306013/8d24a3b7-e7a4-4c73-a54e-417afbc35a3b">
+<img width="1420" alt="Screenshot 2023-12-13 at 6 33 30 AM" src="https://github.com/Siddharth-Dagar-25/todo-application/assets/97306013/99af52c7-26b9-4ddf-9c70-3e5a63b92c86">
 
-</div>
+## Features
+- User authentication and authorization.
+- Real-time updates with a responsive UI.
+- Shimmer UI.
+- Lazy Loading.
+- Light and Dark Theme.
+- User profiles with avatars.
+- Searching and Sorting.
+- Add to Cart(UI layer is subscribed to Data layer/store).
 
-# :notebook_with_decorative_cover: Table of Contents
+## Technologies
+- **Frontend**: React (created with Vite), Redux
+- **Tools**: Firebase (for User Authentication and Authorization)
+- **Styling**: Tailwind CSS
 
-- [About the Project](#star2-about-the-project)
+## Getting Started
 
-- [Contact](#handshake-contact)
+### Prerequisites
+- JavaScript
+- ReactJS
+- Redux Store
+- TailwindCSS
 
-## :star2: About the Project
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Siddharth-Dagar-25/todo-application
 
-### :camera: Screenshots
+2. **Install dependencies:**
+    ```bash
+    npm install
 
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/FWmKHr0/md-home.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/DWrN8zW/md-cusine.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/r6kp6mj/md-filters.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/TmH8CPb/md-search.png" alt='image' width='800'/></a> </div>
-<div >
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/FYVdLz1/md-menu.png" alt='image' width='800'/></a> </div>
-<div >
-<div align="center"> <a href="https://Food Villa-food.netlify.app/"><img src="https://i.ibb.co/FX2Zghj/md-cart.png" alt='image' width='800'/></a> </div>
-<div >
+3. **Starting the App:**
+    ```bash
+    npm run dev
 
-### :dart: Features
+## Contributing
+I welcome any and all contributions! Here are some ways you can get started:
 
--Search
--Sort
--Filter
--Shimmer UI
--Lazy Loading
+- Report bugs: If you encounter any bugs, please let us know. Open up an issue and let us know the problem.
+- Contribute code: If you are a developer and want to contribute, follow the instructions below to get started!
+- Suggestions: If you don't want to code but have some awesome ideas, open up an issue explaining some updates or imporvements you would like to see!
+- Documentation: If you see the need for some additional documentation, feel free to add some!
 
+## Instructions
 
-### :art: Color Reference
-
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#E50914](https://via.placeholder.com/10/E50914?text=+) #E50914 |
-| Secondary Color | ![#0f0d0e](https://via.placeholder.com/10/0f0d0e?text=+) #0f0d0e |
-| Accent Color    | ![#fcba28](https://via.placeholder.com/10/fcba28?text=+) #fcba28 |
-| Text Color      | ![#fff](https://via.placeholder.com/10/fff?text=+) #fff          |
-
-## :toolbox: Getting Started
-
-### :bangbang: Prerequisites
-
-- Install Node Js in your computer<a href="https://nodejs.org/en"> Here</a>
-
-### :running: Run Locally
-
-Clone the project
-
-```bash
-https://github.com/gyandeeparyan/Food Villa-food
-```
-
-Go to the project directory
-
-```bash
-cd Food Villa-food
-```
-
-Install dependencies
-
-```bash
-npm i
-```
-
-Start the server
-
-```bash
-npm run dev
-```
-
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-```bash
-firebase deploy
-```
-
-## :wave: Contributing
-
-<a href="https://github.com/gyandeeparyan/Food Villa-food/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
-
-Contributions are always welcome!
-
-see `contributing.md` for ways to get started
-
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/gyandeeparyan/Food Villa-food/blob/master/CODE_OF_CONDUCT.md)
-
-## :handshake: Contact
-
-Gyandeep Aryan - - gyandeeparyan.dev@gmail.com
-
-Project Link: [https://github.com/gyandeeparyan/Food Villa-food](https://github.com/gyandeeparyan/Food Villa-food) -->
+- Fork this repository
+- Clone the forked repository
+- Add your contributions (code or documentation)
+- Commit and push
+- Wait for pull request to be merged
