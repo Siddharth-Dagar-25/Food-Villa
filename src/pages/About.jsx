@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function About() {
   return (
-    <section className='mb-[200px] mt-12 mx-5 flex items-center justify-center'>
+    <section className='mb-[100px] mt-12 mx-5 flex items-center justify-center'>
       <div className='mx-auto max-w-7xl px-2 lg:px-0'>
         <div className='mx-auto  max-w-3xl md:text-center'>
           <h2 className='text-3xl font-bold leading-tight text-black dark:text-brand-beige sm:text-4xl lg:text-5xl lg:leading-tight'>
@@ -18,8 +18,8 @@ function About() {
           </p>
         </div>
 
-        <div className='mt-8 md:ml-[150px] grid grid-cols-1 gap-4 sm:grid-cols-3 md:mt-16 lg:gap-x-12'></div>
-        <div className='mt-8 text-center md:mt-16'>
+        <div className='mt-8 md:ml-[150px] grid grid-cols-1 gap-4 sm:grid-cols-3 md:mt-4 lg:gap-x-12'></div>
+        <div className='mt-8 text-center md:mt-8'>
           <a href='https://siddharth-dagar.vercel.app/' target="_blank">
             <button
               type='button'
