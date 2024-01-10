@@ -24,46 +24,4 @@ function App() {
   );
 }
 
-// const appRouter = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <Error />,
-//     children: [
-//       {
-//         path: "/about",
-//         element: (
-//           <Suspense fallback={<Error />}>
-//             <About />
-//           </Suspense>
-//         ),
-//       },
-//       {
-//         path: "/signin",
-//         element: <SignIn />,
-//       },
-//       {
-//         path: "/cart",
-//         element: <Cart />,
-//       },
-//       {
-//         path: "/",
-//         element: <AllResturantList />,
-//       },
-//       {
-//         path: "/resturant/:resId",
-//         element: <ResturantMenu />,
-//       },
-//       {
-//         path: "/orderPlaced",
-//         element: <OrderSuccess/>,
-//       },
-//     ],
-//   },
-// ]);
-
-// ReactDOM.createRoot(document.getElementById("root")).render(
-//   <RouterProvider router={appRouter} />
-// );
-
 export default App;
